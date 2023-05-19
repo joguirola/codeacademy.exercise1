@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Castoro Titling';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/castorotitling/v3/buEupouwccj03leTfjUAhEZWlrNaZQ0l.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+  body {
+    background-color: #EDEEC9;
+}
+
+header {
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+    color: #EDEEC9;
+    background-color: #77BFA3;
+    border: 5px #77BFA3 solid;
+    width: 800px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+table {
+    width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    
+}
+
+
+th {
+    border: 5px solid #77BFA3;
+    text-align: center;
+}
+
+td {
+    border: 5px solid #77BFA3;
+    text-align: left;
+}
+
+.code {
+    font-family: monospace, sans-serif;
+    font-weight: bold;
+    color: gray;
+    background-color: #BFD8BD;
+    width: 100%;
+    text-align: center;    
+}
